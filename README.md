@@ -1,7 +1,7 @@
 # React Portfolio - Homework 20
 
 ## Description
-This application is designed to share my projects with fellow developers - whether applying for jobs or collaborating on future projects. The goal is to use React to create a portfolio that will highlight my skills as a developer. 
+This application is designed to share my projects with fellow developers - whether applying for jobs or collaborating on future projects. The goal is to create a portfolio using React that highlights my skills as a developer.  
 
 ## Table of Contents 
   - [Description](#description)
