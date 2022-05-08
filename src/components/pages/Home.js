@@ -15,28 +15,41 @@ export default function Home() {
       </div>
 
     </div>
+
+      {/* Icons */}
+      <div className="icons col-5 container">
+
+<ul>
+
+  <li className="github">
+    <i class="fa-brands fa-github fa-3x"></i> 
+  </li>
+  <li className="linkedin">
+    <i class="fa-brands fa-linkedin-in fa-3x"></i> 
+  </li>
+  <li className="email">
+    <i class="fa-solid fa-at fa-3x"></i> 
+  </li>
+
+</ul>
+
+
+</div>
   
-    <div className="bio">
+    <div className="row">
 
       {/* Profile Photo */}
-      <div className="profile-photo"></div>
+      <div className="profile-photo col-5"></div>
 
+      
       {/* About Me Text */}
-      <p className="about-me-text">
+      <p className="about-me-text col-5">
       Self-disciplined, enthusiastic full-stack developer with experience in designing and building web applications. Confident implementing a wide range of technologies and programming languages such as HTML, CSS, JavaScript, React, Node, etc. (see skills below). Expert in managing and leading groups of 25+ people. A forever learner who is looking to continue to grow and enhance front/back-end skills.
       </p>
-
-    </div>
-
-    {/* Icons */}
-    <div className="icons">
-
-      <i class="fa-brands fa-github fa-3x"></i>
-      <i class="fa-brands fa-linkedin-in fa-3x"></i>
-      <i class="fa-solid fa-at fa-3x"></i>
-
-    </div>
     
-</div>
+
+  </div>
+
+  </div>
   );
 }

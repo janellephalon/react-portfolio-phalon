@@ -1,40 +1,55 @@
+body {
+    background-color: #40798C;
+}
 .nav {
     font-family: 'MixLean', sans-serif;
     margin: 0;
 	padding: 0;
-	border: none;
     font-size: 20px;
-    color: #40798C;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: transparent;
-  }
-
-ul {
+.nav-bg {
+    max-width: 100%;
+    background-position: center;
     position: relative;
-    list-style: none;
-    height: 48px;
-    display: inline-block;
 }
 
-ul li {
-    display: inline-block;
-    padding: 8px 13px;
+.icons {
+    display: inline;
     line-height: 32px;
-	text-decoration: none;
-    text-align: left;
+    text-align: center;
+    position: relative;
+}
+
+.github {
+    color: #40798C;
+    list-style: none;
+    padding: 8px 13px;
+    display: inline;
+}
+
+.linkedin {
     color: #70A9A1;
+    list-style: none;
+    padding: 8px 13px;
+    display: inline;
+}
+
+.email {
+    color: #9EC1A3;
+    list-style: none;
+    padding: 8px 13px;
+    display: inline;
 }
 
 
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/BeachBanner.png");
-    height: 400px;
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/Untitled\ design.png");
+    height: 450px;
+    max-width: 100%;
     background-position: center;
+    background-size: auto;
     position: relative;
     margin-bottom: 20px;
 }
@@ -55,26 +70,20 @@ ul li {
     color: #70A9A1;
   }
 
-  i {
-      align-content: center;
-      padding-right: 15px;
-      padding-left: 15px;
-  }
-
   .bio {
       margin-bottom: 10px;
   }
 
   .profile-photo {
-      content: url('./images/proPic.png');
-      height: 300px;
-      width: 250px;
-      padding-top: 20px;
-      margin-left: 10px;
-      margin-right: 10px;
-      position: relative;
-      display: flex;
-      float: left;
+    content: url('./images/proPic.png');
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+    display: flex;
   }
 
   .center {
@@ -86,7 +95,7 @@ ul li {
   .about-me-text {
     font-family: 'MixLean', sans-serif;
     font-size: 25px;
-    text-align: center;
     margin: 20px;
     color: #40798C;
+    float: right;
   }
