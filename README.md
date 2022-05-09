@@ -52,7 +52,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Installation
-
+` npm intall `
 
 ## Usage
 ` npm start `
