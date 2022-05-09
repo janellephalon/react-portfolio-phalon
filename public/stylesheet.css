@@ -130,6 +130,33 @@ li a:hover {
     font-style:normal;
 }
 
+/* Divider - Next Section */
+.divider {
+    border-top: 2px solid slategray;
+}
+
+.second-header {
+    font-family: 'MixLean', sans-serif;
+    font-size: 2.5vw;
+    margin-top: 15px;
+    margin-right: 10%;
+    margin-left: 5%;
+    color: #40798C;
+    position: right;
+    font-style:normal;
+}
+
+.about-teaching {
+    font-family: 'MixLean', sans-serif;
+    font-size: 2.5vw;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #1F363D;
+    font-style:normal;
+}
+
 /* Footer  */
 .footer {
         background:lightgray;
