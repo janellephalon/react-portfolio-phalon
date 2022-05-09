@@ -1,6 +1,11 @@
-body {
-    background-color: #40798C;
-}
+/* Center */
+.center {
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Nav Bar */ 
 .nav {
     font-family: 'MixLean', sans-serif;
     margin: 0;
@@ -14,6 +19,7 @@ body {
     position: relative;
 }
 
+/* Icons */ 
 .icons {
     display: inline;
     line-height: 32px;
@@ -42,8 +48,7 @@ body {
     display: inline;
 }
 
-
-
+/* Hero Image & Text */ 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/Untitled\ design.png");
     height: 450px;
@@ -63,39 +68,56 @@ body {
     color: white;
     font-family: 'MixLean', sans-serif;
     font-size: 2.5vw;
-  }
+}
 
-  .hero-text h1 {
+.hero-text h1 {
     font-family: 'Falling Slowly Free Demo', sans-serif;
     color: #70A9A1;
-  }
+}
 
-  .bio {
+  /* Home Page Content  */ 
+.bio {
       margin-bottom: 10px;
-  }
+}
 
-  .profile-photo {
+.profile-photo {
     content: url('./images/proPic.png');
     max-width: 100%;
     height: auto;
     padding: 15px;
-    margin-left: 10px;
+    margin-left: 10%;
     margin-right: 10px;
     position: relative;
     float: left;
     display: flex;
-  }
+}
 
-  .center {
-    display: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .about-me-text {
+.about-me-text {
     font-family: 'MixLean', sans-serif;
-    font-size: 25px;
+    font-size: 2.75vw;
+    margin-right: 10%;
     margin: 20px;
-    color: #40798C;
+    color: #1F363D;
     float: right;
-  }
+    font-style:normal;
+}
+
+/* Footer  */
+.footer {
+        background:lightgray;
+        width: 100%;
+        padding: 40px 35px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+.footer h3 {
+    font-family: 'MixLean', sans-serif;
+    color: #1F363D;
+}
+
+.footer h4 {
+    font-family: 'Falling Slowly Free Demo', sans-serif;
+    color: #40798C;
+}
