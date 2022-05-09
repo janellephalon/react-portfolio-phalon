@@ -250,3 +250,15 @@ button:hover {
     margin-bottom: 5%;
     display: inline-block;
 }
+
+/* Resume Div */
+.resume-div {
+    margin-top: 5%;
+    align-content: center;
+    font-family: 'MixLean', sans-serif;
+    font-size: 2vw;
+    margin-right: 5%;
+    margin-left: 10%;
+    color: #1F363D;
+    font-style:normal;
+}
