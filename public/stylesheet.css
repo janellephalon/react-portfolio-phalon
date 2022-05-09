@@ -19,6 +19,7 @@
     position: relative;
 }
 
+/* Homepage */
 /* Icons */ 
 li a, a:focus, a:active {
     text-decoration: none;
@@ -157,7 +158,7 @@ li a:hover {
     font-style:normal;
 }
 
-/* Footer  */
+/* Footer */
 .footer {
         background:lightgray;
         width: 100%;
@@ -175,4 +176,77 @@ li a:hover {
 .footer h4 {
     font-family: 'Falling Slowly Free Demo', sans-serif;
     color: #40798C;
+}
+
+/* Portfolio Page */
+.gallery-button-1 {
+    background-color: #CFE0C3;
+    font-family: 'MixLean', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #1F363D;
+    text-align: center;
+    border-radius: 3px;
+    border-color: #1F363D;
+}
+
+.gallery-button-2 {
+    background-color: #9EC1A3;
+    font-family: 'MixLean', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #1F363D;
+    text-align: center;
+    border-radius: 3px;
+    border-color: #1F363D;
+}
+
+.gallery-button-3 {
+    background-color: #70A9A1;
+    font-family: 'MixLean', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #1F363D;
+    text-align: center;
+    border-radius: 3px;
+    border-color: #1F363D;
+}
+
+.gallery-button-4 {
+    background-color: #1F363D;
+    font-family: 'MixLean', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #9EC1A3;
+    text-align: center;
+    border-radius: 3px;
+    border-color: #1F363D;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.card-body {
+    font-family: 'MixLean', sans-serif;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.card-body-text {
+    margin-top: 15px;
+}
+
+.card {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
 }

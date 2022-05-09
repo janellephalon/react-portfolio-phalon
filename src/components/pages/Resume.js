@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function Blog() {
+export default function Resume() {
   return (
-    <div>
+    <section>
       <h1>Professional Resume</h1>
       <p>
         
       </p>
-    </div>
+    </section>
   );
 }
