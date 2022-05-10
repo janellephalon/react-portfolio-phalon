@@ -35,11 +35,11 @@ export default function Home() {
     <div className="row">
 
       {/* Profile Photo */}
-      <div className="profile-photo col-5 img-fluid"></div>
+      <div className="profile-photo col-4 img-fluid"></div>
 
       
       {/* About Me Text */}
-      <p className="about-me-text col-4 text-justify font-weight-bold">
+      <p className="about-me-text col-5 text-justify font-weight-bold">
       Self-disciplined, enthusiastic full-stack developer with experience in designing and building web applications. Confident implementing a wide range of technologies and programming languages such as HTML, CSS, JavaScript, React, Node, etc. Expert in managing and leading groups of 25+ people. A forever learner who is looking to continue to grow and enhance front/back-end skills.
       </p>
   
@@ -50,14 +50,14 @@ export default function Home() {
     <div className="second-intro">
 
       <h1 className="second-header display-4">
-        How did I get here?
+        From Teacher to Coder
       </h1>
 
       <p className="about-teaching text-justify">
         As someone who loves learning, pursuing a career in education was an obvious choice. Students feed off my thirst for knowledge, creating a climate that not only motivates, but challenges all learners. When the pandemic struck, I found that I was lacking the resources necessary to create engaging lessons for my students - Hence, how I got here. 
         <br></br>
         <br></br>
-        I enrolled in Columbia Engineering's Coding Bootcamp with the idea that I will create applications to foster growth in education. Although still a long-term goal, my focus has shifted after falling in love with challenges of web development. My hunger to learn continues to grow and I look forward to obtaining a position as a full-stack developer.   
+        I enrolled in Columbia Engineering's Coding Bootcamp with the idea that I will create applications to foster growth in education. To reach this goal, I plan to obtain a position that pushes my skills as a developer - continuing to feed my never-ending hunger to learn.  
       </p>
 
     </div>
