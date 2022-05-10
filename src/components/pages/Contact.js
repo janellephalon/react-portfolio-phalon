@@ -84,7 +84,7 @@ function Form() {
           placeholder="text"
           onChange={handleInputChange}
         />
-        <button className="gallery-button-1" type="button" onClick={handleFormSubmit} >
+        <button className="form-button" type="button" onClick={handleFormSubmit} >
           Submit
         </button>
       </form>

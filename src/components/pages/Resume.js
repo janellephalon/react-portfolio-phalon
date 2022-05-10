@@ -18,7 +18,7 @@ export default function Resume() {
         <div className="resume-div font-weight-bold container text-justify">
           <div className="row">
 
-            <h1 className="col-1 font-weight-bold resume-header display-1">Education</h1>
+            <h1 className="col-1 font-weight-bold resume-header display-3">Education</h1>
             <p>
               <ul>
                 <li>
@@ -33,7 +33,7 @@ export default function Resume() {
             </ul>
             </p>
 
-            <h1 className="resume-header col-1 font-weight-bold display-1">Experience</h1>
+            <h1 className="resume-header col-1 font-weight-bold display-3">Experience</h1>
             <h3 className="resume-title">READING and WRITING TEACHER</h3>
             <p className="resume-text">Memorial Middle School | Elmwood Park, New Jersey | September 2018 - June 2022 </p>
               <p className="resume-text">

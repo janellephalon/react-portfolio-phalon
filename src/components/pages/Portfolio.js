@@ -24,7 +24,7 @@ import NoteTaker from "../Images/Note-Taker.png";
       <div className="row">
 
         {/* Buget Tracker Card */}
-        <div className="col-6">
+        <div className="col-5">
           <div className="card">
 
             <img
@@ -45,7 +45,7 @@ import NoteTaker from "../Images/Note-Taker.png";
         </div>
 
       {/* E-Commerce Card */}
-        <div className="col-6">
+        <div className="col-5">
           <div className="card">
 
             <img
@@ -66,7 +66,7 @@ import NoteTaker from "../Images/Note-Taker.png";
         </div>
 
       {/* Employee Tracker Card */}
-        <div className="col-6">
+        <div className="col-5">
           <div className="card">
 
             <img
@@ -87,7 +87,7 @@ import NoteTaker from "../Images/Note-Taker.png";
         </div>
 
       {/* Note Taker Card */}
-        <div className="col-6">
+        <div className="col-5">
           <div className="card">
 
             <img
