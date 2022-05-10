@@ -81,7 +81,7 @@ function Form() {
           value={password}
           name="password"
           type="text"
-          placeholder="password"
+          placeholder="text"
           onChange={handleInputChange}
         />
         <button className="gallery-button-1" type="button" onClick={handleFormSubmit} >
