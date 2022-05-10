@@ -271,19 +271,20 @@ button:hover {
 
 .resume-title {
     font-family: 'MixLean', sans-serif;
-    font-size: 4vw;
+    font-size: 2.5vw;
 }
 
 .resume-text {
     font-family: 'MixLean', sans-serif;
     color: #1F363D;
-    font-size: 2.5vw;
+    font-size: 2vw;
     
 }
 
 /* Contact Form */
 .form {
     margin: 20px;
+    text-align: center;
 }
   
 .form input {
@@ -298,4 +299,17 @@ button:hover {
     font-family: 'Pompiere', cursive;
     font-size: 15px;
     margin-top: 5%;
+}
+
+.form-button {
+    background-color: #CFE0C3;
+    font-family: 'Zen Loop', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #1F363D;
+    text-align: center;
+    border-radius: 3px;
+    border-color: #1F363D;
+    width: 200px;
 }
