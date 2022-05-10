@@ -7,7 +7,7 @@
 
 /* Nav Bar */ 
 .nav {
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Zen Loop', cursive;
     margin: 0;
 	padding: 0;
     font-size: 20px;
@@ -89,7 +89,7 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Zen Loop', cursive;
     font-size: 2.5vw;
 }
 
@@ -100,11 +100,11 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Zen Loop', cursive;
 }
 
 .hero-text h1 {
-    font-family: 'Falling Slowly Free Demo', sans-serif;
+    font-family: 'Clicker Script', cursive;
     color: #70A9A1;
 }
 
@@ -122,8 +122,8 @@ li a:hover {
 }
 
 .about-me-text {
-    font-family: 'MixLean', sans-serif;
-    font-size: 2.5vw;
+    font-family: 'Delius', cursive;
+    font-size: 2.2vw;
     margin-right: 10%;
     margin-left: 0px;
     color: #1F363D;
@@ -137,7 +137,7 @@ li a:hover {
 }
 
 .second-header {
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Zen Loop', cursive;
     font-size: 2.5vw;
     margin-top: 15px;
     margin-right: 10%;
@@ -148,7 +148,7 @@ li a:hover {
 }
 
 .about-teaching {
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Delius', cursive;
     font-size: 2.5vw;
     margin-right: 10%;
     margin-left: 10%;
@@ -160,28 +160,28 @@ li a:hover {
 
 /* Footer */
 .footer {
-        background:lightgray;
-        width: 100%;
-        padding: 40px 35px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
+    background:lightgray;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 .footer h3 {
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Zen Loop', cursive;
     color: #1F363D;
 }
 
 .footer h4 {
-    font-family: 'Falling Slowly Free Demo', sans-serif;
+    font-family: 'Clicker Script', cursive;
     color: #40798C;
 }
 
 /* Portfolio Page */
 .gallery-button-1 {
     background-color: #CFE0C3;
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Zen Loop', cursive;
     font-size: 25px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -193,7 +193,7 @@ li a:hover {
 
 .gallery-button-2 {
     background-color: #9EC1A3;
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Zen Loop', cursive;
     font-size: 25px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -205,7 +205,7 @@ li a:hover {
 
 .gallery-button-3 {
     background-color: #70A9A1;
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Zen Loop', cursive;
     font-size: 25px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -217,7 +217,7 @@ li a:hover {
 
 .gallery-button-4 {
     background-color: #1F363D;
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Zen Loop', cursive;
     font-size: 25px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -232,7 +232,7 @@ button:hover {
 }
 
 .card-body {
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Delius', cursive;
     align-items: center;
     margin: 10px;
     position: relative;
@@ -243,6 +243,7 @@ button:hover {
 
 .card-body-text {
     margin-top: 15px;
+    
 }
 
 .card {
@@ -256,11 +257,27 @@ button:hover {
     margin-top: 5%;
     align-content: center;
     font-family: 'MixLean', sans-serif;
-    font-size: 2vw;
     margin-right: 5%;
     margin-left: 10%;
     color: #1F363D;
     font-style:normal;
+}
+
+.resume-header {
+    font-family: 'Zen Loop', cursive;
+    color: #40798C;
+}
+
+.resume-title {
+    font-family: 'Pompiere', cursive;
+    font-size: 4vw;
+}
+
+.resume-text {
+    font-family: 'Delius', cursive;
+    color: #1F363D;
+    font-size: 2.5vw;
+    
 }
 
 /* Contact Form */
@@ -277,7 +294,7 @@ button:hover {
 }
 
 .form-style {
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Pompiere', cursive;
     font-size: 15px;
     margin-top: 5%;
 }
