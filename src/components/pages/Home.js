@@ -53,7 +53,7 @@ export default function Home() {
         From Teacher to Coder
       </h1>
 
-      <p className="about-teaching text-justify">
+      <p className="about-teaching text-justify font-weight-bold">
         As someone who loves learning, pursuing a career in education was an obvious choice. Students feed off my thirst for knowledge, creating a climate that not only motivates, but challenges all learners. When the pandemic struck, I found that I was lacking the resources necessary to create engaging lessons for my students - Hence, how I got here. 
         <br></br>
         <br></br>
