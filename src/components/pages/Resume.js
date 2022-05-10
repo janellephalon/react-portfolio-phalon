@@ -18,28 +18,25 @@ export default function Resume() {
         <div className="resume-div font-weight-bold container text-justify">
           <div className="row">
 
-            <h1 className="Resume-Header col-1 font-weight-bold">Education</h1>
+            <h1 className="col-1 font-weight-bold resume-header display-1">Education</h1>
             <p>
               <ul>
                 <li>
-                FULL-STACK DEVELOPER | CERT. <br></br>
-                Columbia University School of Engineering, New York, New York
+                <h3 className="resume-title">FULL-STACK DEVELOPER | CERT. </h3>
+                <p className="resume-text">Columbia University School of Engineering, New York, New York</p>
                 </li>
                 <br></br>
                 <li>
-                ENGLISH LIT. and SECONDARY EDUCATION | B.A <br></br>
-                William Paterson University, New York, New York
+                <h3 className="resume-title">ENGLISH LIT. and SECONDARY EDUCATION | B.A </h3>
+                <p className="resume-text">William Paterson University, New York, New York</p>
                 </li>
             </ul>
             </p>
 
-            <h1 className="Resume-Header col-1 font-weight-bold">Work Experience</h1>
-            <p>
-            READING and WRITING TEACHER <br></br>
-            Memorial Middle School | Elmwood Park, New Jersey <br></br> 
-            September 2018 - June 2022 
-            <br></br>
-            <br></br>
+            <h1 className="resume-header col-1 font-weight-bold display-1">Experience</h1>
+            <h3 className="resume-title">READING and WRITING TEACHER</h3>
+            <p className="resume-text">Memorial Middle School | Elmwood Park, New Jersey | September 2018 - June 2022 </p>
+              <p className="resume-text">
               <ul>
                 <li>
                 Uses data to assess and monitor the progress of 150+ students throughout the school year and works
@@ -60,9 +57,8 @@ export default function Resume() {
                 <li>
                 Earned proficient and accomplished scores in all Danielson Framework standards - 2022 Summative Review rated Highly Effective.
                 </li>
-
               </ul>
-            </p>
+              </p>
 
           </div>
         </div>
