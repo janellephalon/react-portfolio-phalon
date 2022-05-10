@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-portfolio-phalon/static/css/main.44753e33.css",
-    "main.js": "/react-portfolio-phalon/static/js/main.c9000e7f.js",
+    "main.js": "/react-portfolio-phalon/static/js/main.698baf9a.js",
     "static/media/Employee-Tracker.png": "/react-portfolio-phalon/static/media/Employee-Tracker.72ee2fe17e1f3034e497.png",
     "static/media/E-Commerce-Backend.png": "/react-portfolio-phalon/static/media/E-Commerce-Backend.ac1301cb11e3738aee71.png",
     "static/media/Budget-Tracker.png": "/react-portfolio-phalon/static/media/Budget-Tracker.5d083b90fb233f315dbc.png",
     "static/media/Note-Taker.png": "/react-portfolio-phalon/static/media/Note-Taker.6ae1ab870a7a7f0ed114.png",
     "index.html": "/react-portfolio-phalon/index.html",
     "main.44753e33.css.map": "/react-portfolio-phalon/static/css/main.44753e33.css.map",
-    "main.c9000e7f.js.map": "/react-portfolio-phalon/static/js/main.c9000e7f.js.map"
+    "main.698baf9a.js.map": "/react-portfolio-phalon/static/js/main.698baf9a.js.map"
   },
   "entrypoints": [
     "static/css/main.44753e33.css",
-    "static/js/main.c9000e7f.js"
+    "static/js/main.698baf9a.js"
   ]
 }
