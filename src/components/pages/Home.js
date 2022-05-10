@@ -57,7 +57,7 @@ export default function Home() {
         As someone who loves learning, pursuing a career in education was an obvious choice. Students feed off my thirst for knowledge, creating a climate that not only motivates, but challenges all learners. When the pandemic struck, I found that I was lacking the resources necessary to create engaging lessons for my students - Hence, how I got here. 
         <br></br>
         <br></br>
-        I enrolled in Columbia Engineering's Coding Bootcamp with the idea that I will create applications to foster growth in education. Although still a long-term goal, my mindset has shifted after falling in love with challenges of web development. I am hungry to obtain a position that will fuel my passion for learning and growing as a developer.   
+        I enrolled in Columbia Engineering's Coding Bootcamp with the idea that I will create applications to foster growth in education. Although still a long-term goal, my focus has shifted after falling in love with challenges of web development. My hunger to learn continues to grow and I look forward to obtaining a position as a full-stack developer.   
       </p>
 
     </div>
