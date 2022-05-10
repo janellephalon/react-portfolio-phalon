@@ -61,7 +61,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## Deployed Link 
-[Deployed Link]() 
+[Deployed Link through GitHub pages](http://janellephalon.github.io/react-portfolio-phalon) 
 
 ## Contributors
 [Janelle Phalon](https://github.com/janellephalon) - Columbia University Coding Bootcamp 
