@@ -104,7 +104,7 @@ li a:hover {
 }
 
 .hero-text h1 {
-    font-family: 'Clicker Script', cursive;
+    font-family: 'Falling Slowly Free Demo', sans-serif;
     color: #70A9A1;
 }
 
@@ -122,8 +122,8 @@ li a:hover {
 }
 
 .about-me-text {
-    font-family: 'Delius', cursive;
-    font-size: 2.2vw;
+    font-family: 'MixLean', sans-serif;
+    font-size: 2.5vw;
     margin-right: 10%;
     margin-left: 0px;
     color: #1F363D;
@@ -148,7 +148,7 @@ li a:hover {
 }
 
 .about-teaching {
-    font-family: 'Delius', cursive;
+    font-family: 'MixLean', sans-serif;
     font-size: 2.5vw;
     margin-right: 10%;
     margin-left: 10%;
@@ -169,12 +169,12 @@ li a:hover {
 }
 
 .footer h3 {
-    font-family: 'Zen Loop', cursive;
+    font-family: 'MixLean', sans-serif;
     color: #1F363D;
 }
 
 .footer h4 {
-    font-family: 'Clicker Script', cursive;
+    font-family: 'Falling Slowly Free Demo', sans-serif;
     color: #40798C;
 }
 
@@ -232,7 +232,7 @@ button:hover {
 }
 
 .card-body {
-    font-family: 'Delius', cursive;
+    font-family: 'MixLean', sans-serif;
     align-items: center;
     margin: 10px;
     position: relative;
@@ -269,12 +269,12 @@ button:hover {
 }
 
 .resume-title {
-    font-family: 'Pompiere', cursive;
+    font-family: 'MixLean', sans-serif;
     font-size: 4vw;
 }
 
 .resume-text {
-    font-family: 'Delius', cursive;
+    font-family: 'MixLean', sans-serif;
     color: #1F363D;
     font-size: 2.5vw;
     
