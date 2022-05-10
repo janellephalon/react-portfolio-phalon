@@ -180,6 +180,10 @@ li a:hover {
 }
 
 /* Portfolio Page */
+.portfolio {
+    align-content: center;
+}
+
 .gallery-button-1 {
     background-color: #CFE0C3;
     font-family: 'Zen Loop', cursive;
