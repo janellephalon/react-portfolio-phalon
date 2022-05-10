@@ -22,20 +22,20 @@ export default function Resume() {
             <p>
               <ul>
                 <li>
-                <h3 className="resume-title">FULL-STACK DEVELOPER | CERT. </h3>
+                <h3 className="resume-title font-weight-bold">FULL-STACK DEVELOPER | CERT. </h3>
                 <p className="resume-text">Columbia University School of Engineering, New York, New York</p>
                 </li>
                 <br></br>
                 <li>
-                <h3 className="resume-title">ENGLISH LIT. and SECONDARY EDUCATION | B.A </h3>
+                <h3 className="resume-title font-weight-bold">ENGLISH LIT. and SECONDARY EDUCATION | B.A </h3>
                 <p className="resume-text">William Paterson University, New York, New York</p>
                 </li>
             </ul>
             </p>
 
             <h1 className="resume-header col-1 font-weight-bold display-3">Experience</h1>
-            <h3 className="resume-title">READING and WRITING TEACHER</h3>
-            <p className="resume-text">Memorial Middle School | Elmwood Park, New Jersey | September 2018 - June 2022 </p>
+            <h3 className="resume-title font-weight-bold">READING and WRITING TEACHER</h3>
+            <p className="resume-text font-weight-bold">Memorial Middle School | Elmwood Park, New Jersey | September 2018 - June 2022 </p>
               <p className="resume-text">
               <ul>
                 <li>
