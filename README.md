@@ -60,7 +60,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ` npm start `
 
 ## Demo
-[Video Demonstration](https://drive.google.com/file/d/1q2uHQB2-oikZWmEiHum2kdtCUUBRKq5_/view?usp=sharing)
+![Janelle Phalon _ Web Developer](https://user-images.githubusercontent.com/95178236/181003497-7008879c-6848-40eb-bd0a-887cc04f775f.gif)
+
 
 ## Deployed Link 
 [Deployed Link through GitHub pages](http://janellephalon.github.io/react-portfolio-phalon) 
