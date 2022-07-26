@@ -1,17 +1,21 @@
 {
   "files": {
     "main.css": "/react-portfolio-phalon/static/css/main.44753e33.css",
-    "main.js": "/react-portfolio-phalon/static/js/main.77c9473b.js",
+    "main.js": "/react-portfolio-phalon/static/js/main.5cdf7144.js",
+    "static/media/book-browser.png": "/react-portfolio-phalon/static/media/book-browser.9e144a3a0fcf52467786.png",
+    "static/media/updatedresume.png": "/react-portfolio-phalon/static/media/updatedresume.952c3d3093d11b4e96dd.png",
     "static/media/Employee-Tracker.png": "/react-portfolio-phalon/static/media/Employee-Tracker.72ee2fe17e1f3034e497.png",
     "static/media/E-Commerce-Backend.png": "/react-portfolio-phalon/static/media/E-Commerce-Backend.ac1301cb11e3738aee71.png",
+    "static/media/Speedy-Socials.png": "/react-portfolio-phalon/static/media/Speedy-Socials.e744a1ba354688f9e698.png",
     "static/media/Budget-Tracker.png": "/react-portfolio-phalon/static/media/Budget-Tracker.5d083b90fb233f315dbc.png",
+    "static/media/ideafora.png": "/react-portfolio-phalon/static/media/ideafora.8d65cd31798275540904.png",
     "static/media/Note-Taker.png": "/react-portfolio-phalon/static/media/Note-Taker.6ae1ab870a7a7f0ed114.png",
     "index.html": "/react-portfolio-phalon/index.html",
     "main.44753e33.css.map": "/react-portfolio-phalon/static/css/main.44753e33.css.map",
-    "main.77c9473b.js.map": "/react-portfolio-phalon/static/js/main.77c9473b.js.map"
+    "main.5cdf7144.js.map": "/react-portfolio-phalon/static/js/main.5cdf7144.js.map"
   },
   "entrypoints": [
     "static/css/main.44753e33.css",
-    "static/js/main.77c9473b.js"
+    "static/js/main.5cdf7144.js"
   ]
 }
