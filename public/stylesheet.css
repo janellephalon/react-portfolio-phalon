@@ -87,7 +87,7 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-family: 'Cangste', sans-serif;
+    font-family: 'cangste', sans-serif;
     /* font-size: 2.5vw; */
 }
 
@@ -98,11 +98,11 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'yanone kaffeesatz', sans-serif;
 }
 
 .hero-text h1 {
-    font-family: 'Bayberry', sans-serif;
+    font-family: 'bayberry', sans-serif;
     color: #6E9075;
     font-size: 9vw;
     padding-top: 20px;
