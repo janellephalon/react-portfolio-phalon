@@ -1,5 +1,7 @@
 import React from 'react';
 
+import PDF from '../Images/updatedresume.png';
+
 export default function Resume() {
   return (
     <section>
@@ -8,64 +10,87 @@ export default function Resume() {
       <div className="hero-image-secondary">
           <div className="hero-text">
 
-          <h1 className="display-3">Professional</h1>
-          <p className="display-6">Resume</p> 
+          <h1 className="display-3">Past Relevant</h1>
+          <p className="display-6">WORK EXPERIENCE</p> 
 
           </div>
         </div>
 
-        {/* Resume */}
-        <div className="resume-div font-weight-bold container text-justify">
-          <div className="row">
+        <div className="col-7 center">
+          <div className="card">
 
-            <h1 className="col-1 font-weight-bold resume-header display-3">Education</h1>
-            <p>
-              <ul>
-                <li>
-                <h3 className="resume-title font-weight-bold">FULL-STACK DEVELOPER | CERT. </h3>
-                <p className="resume-text">Columbia University School of Engineering, New York, New York</p>
-                </li>
-                <br></br>
-                <li>
-                <h3 className="resume-title font-weight-bold">ENGLISH LIT. and SECONDARY EDUCATION | B.A </h3>
-                <p className="resume-text">William Paterson University, New York, New York</p>
-                </li>
-            </ul>
-            </p>
+            <img
+              src={PDF}
+              alt="Resume PDF"
+              class="card-img-top"
+            />
 
-            <h1 className="resume-header col-1 font-weight-bold display-3">Experience</h1>
-            <h3 className="resume-title font-weight-bold">READING and WRITING TEACHER</h3>
-            <p className="resume-text font-weight-bold">Memorial Middle School | Elmwood Park, New Jersey | September 2018 - June 2022 </p>
-              <p className="resume-text">
-              <ul>
-                <li>
-                Uses data to assess and monitor the progress of 150+ students throughout the school year and works
-                closely with staff to efficiently plan and coordinate work. 
-                </li>
-                <li>
-                Facilitates cooperative learning activities that develop a collaborative classroom culture.
-                </li>
-                <li>
-                Integrates technology into the curriculum to promote student engagement and enhance learning pportunities according to the Danielson model.
-                </li>
-                <li>
-                Differentiates instruction to maximize learning opportunities at varying cognitive levels.
-                </li>
-                <li>
-                Effectively communicates with families regarding instructional programs and individual student progress.
-                </li>
-                <li>
-                Earned proficient and accomplished scores in all Danielson Framework standards - 2022 Summative Review rated Highly Effective.
-                </li>
-              </ul>
-              </p>
-
+            <div className="card-body">
+              <a href="https://github.com/janellephalon" target="_blank" rel="noreferrer">
+              <button className="button">GitHub</button>
+              </a>
+              
+            </div>
           </div>
         </div>
 
+<div className="padding-attempt">
+{/* Skills Section */ }
+<div className="skills-div">
 
 
+<p>HTML</p>
+<div class="skills-container">
+  <div class="skills html">90%</div>
+</div>
+<br/>
 
+<p>CSS</p>
+<div class="skills-container">
+  <div class="skills css">90%</div>
+</div>
+<br/>
+
+<p>JavaScript</p>
+<div class="skills-container">
+  <div class="skills js">80%</div>
+</div>
+<br/>
+
+<p>Node.js</p>
+<div class="skills-container">
+  <div class="skills node">75%</div>
+</div>
+<br/>
+
+<p>SQL</p>
+<div class="skills-container">
+  <div class="skills sql">70%</div>
+</div>
+<br/>
+
+</div>
+</div>
+
+{/* Footer */}
+<footer className="footer">
+
+<div className="icons center">
+  <ul>
+
+    <li className="github">
+      <a href="https://github.com/janellephalon"> <i class="fa-brands fa-github fa-3x github"></i></a>
+    </li>
+    <li className="linkedin">
+      <a href="https://www.linkedin.com/in/janelle-phalon-7b743a157/"> <i class="fa-brands fa-linkedin-in fa-3x linkedin"></i></a>
+    </li>
+    <li className="email">
+      <a href="http://mailto:janellephalon@gmail.com"> <i class="fa-solid fa-at fa-3x email"></i></a>
+    </li>
+
+  </ul>
+</div>
+</footer>
 
     </section>
   );

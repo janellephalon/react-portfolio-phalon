@@ -33,7 +33,6 @@ li a:hover {
     display: inline;
     line-height: 25px;
     text-align: center;
-    position: relative;
     text-decoration: none;
 }
 
@@ -63,17 +62,16 @@ li a:hover {
 
 /* Hero Image & Text */ 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/Untitled\ design.png");
+    background-image: url("./images/Rustic\ Minimal\ Wedding\ Print\ Banner.png");
     height: 450px;
     max-width: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    margin-bottom: 20px;
 }
 
 .hero-image-secondary {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/Untitled\ design.png");
+    background-image: url("./images/Rustic\ Minimal\ Wedding\ Print\ Banner.png");
     height: 200px;
     max-width: 100%;
     background-position: center;
@@ -88,9 +86,9 @@ li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: 'Zen Loop', cursive;
-    font-size: 2.5vw;
+    color: black;
+    font-family: 'Cangste', sans-serif;
+    /* font-size: 2.5vw; */
 }
 
 .hero-text-secondary {
@@ -100,83 +98,164 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family: 'Zen Loop', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .hero-text h1 {
-    font-family: 'Falling Slowly Free Demo', sans-serif;
-    color: #70A9A1;
+    font-family: 'Bayberry', sans-serif;
+    color: #6E9075;
+    font-size: 9vw;
+    padding-top: 20px;
+}
+
+.button {
+      background-color: #6E9075;
+      background-image: none;
+      border: 1px solid #000;
+      border-radius: 4px;
+      box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: 'Cangste', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+      margin: 15px 5px 10px 0;
+      overflow: visible;
+      padding: 12px 40px;
+      text-align: center;
+      text-transform: none;
+      touch-action: manipulation;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+    
+.button:focus {
+    text-decoration: none;
+}
+    
+.button:hover {
+    text-decoration: none;
+}
+    
+.button:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+    
+.button:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+    
+@media (min-width: 768px) {
+    .button {
+    padding: 12px 50px;
+    }
 }
 
 /* Home Page Content  */ 
-.profile-photo {
-    content: url('./images/proPic.png');
-    max-width: 100%;
-    height: auto;
-    padding: 15px;
-    margin-left: 10%;
-    margin-right: 10px;
-    position: relative;
-    float: left;
-    display: flex;
+.about-me-section {
+    background-color: #6E9075;
 }
 
-.about-me-text {
-    font-family: 'MixLean', sans-serif;
-    font-size: 2.5vw;
-    margin-right: 10%;
-    margin-left: 0px;
-    margin-top: 20px;
-    color: #1F363D;
-    float: right;
-    font-style:normal;
+.about-me {
+    font-family: 'Cangste', sans-serif;
+    padding-top: 35px;
+    color: black;
 }
 
-/* Divider - Next Section */
-.divider {
-    border-top: 2px solid slategray;
+.about-me-2 {
+    font-family: 'Bayberry', sans-serif;
+    color: white;
 }
 
+.one-min {
+    font-family: 'Cangste', sans-serif;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+/* Next Section */
 .second-header {
-    font-family: 'Zen Loop', cursive;
-    font-size: 2.5vw;
-    margin-top: 15px;
-    margin-right: 10%;
-    margin-left: 5%;
-    color: #40798C;
-    position: right;
-    font-style:normal;
+    font-family: 'Bayberry', sans-serif;
+    padding-top: 35px;
+    color: #6E9075;
+    text-align: relative;
+}
+
+.profile-photo {
+    content: url('./images/bwpropic.png');
+    height: auto;
+    width: 25%;
+    display: block;
 }
 
 .about-teaching {
-    font-family: 'MixLean', sans-serif;
-    font-size: 2.5vw;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #1F363D;
-    font-style:normal;
+    font-family: 'Cangste', sans-serif;
+    font-size: 20px;
+    color: black;
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 15px;
+}
+
+/* Container for skill bars */
+.skills-div {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-right: 5%;
+}
+
+.skills-container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #6E9075;} /* Green */
+.css {width: 90%; background-color: #6E9075;} /* Blue */
+.js {width: 80%; background-color: #6E9075} /* Red */
+.node {width: 75%; background-color: #6E9075;} /* Dark Grey */
+.sql {width: 65%; background-color: #6E9075;}
+
+
+.padding-attempt {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /* Footer */
 .footer {
-    background:lightgray;
+    /* background-image: url("./images/Rustic\ Minimal\ Wedding\ Print\ Banner.png"); */
+    background: white;
     width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-.footer h3 {
-    font-family: 'MixLean', sans-serif;
-    color: #1F363D;
+.footer-name {
+    font-family: 'Bayberry', sans-serif;
 }
 
 .footer h4 {
     font-family: 'Falling Slowly Free Demo', sans-serif;
-    color: #40798C;
+    color: black;
 }
 
 /* Portfolio Page */
@@ -237,7 +316,7 @@ button:hover {
 }
 
 .card-body {
-    font-family: 'MixLean', sans-serif;
+    font-family: 'Cangste', sans-serif;
     align-items: center;
     margin: 10px;
     position: relative;
